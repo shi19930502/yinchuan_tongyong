@@ -177,6 +177,9 @@
                         display: block;
                         margin: auto;
                     }
+                    img{
+                        width: initial;
+                    }
                 }
             }
             width: 100%;
@@ -308,8 +311,11 @@
                     margin-bottom: 0.12rem;
                     img {
                         display: block;
-                        width: 100%;
+//                      width: 100%;
+                        margin: auto;
+                        max-width: 4.6rem;
                         height: 1.86rem;
+                        width: initial;
                     }
                     video {
                         width: 100%;
@@ -400,10 +406,11 @@
 }
 .videoShow,.farmChildrenPopupShow {
     img {
-        width: 100%;
-        max-height: 5.4rem;
+//      width: 100%;
+        max-width: 7.49rem;
+        height: 5.4rem;
         display: block;
-        margin-top: 0.3rem;
+        margin: 0.3rem auto 0;
     }
     video {
         width: 100%;
